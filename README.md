@@ -1,4 +1,5 @@
 # odin-recipes
 A basic recipe webiste based on The Odin Project's curriculum.
 
-It is not meant to look good, but to practice HTML.
+# Front-End Development
+- HTML5: Structured and semantically correct HTML.
