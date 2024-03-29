@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="styles.css">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Makes body a flex container */
+            justify-content: center; /* Horizontally centers the flex items */
+            align-items: center; /* Vertically centers the flex items */
+            min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto; /* Centers the container itself, if it has a defined width */
+            overflow: hidden;
+            /* If you want to center the content of .container, 
+            you might need additional styles depending on your content structure */
+        }
+
+    </style>
 </head>
-<body>
+
+<body class="container">
     <h1>Odin Recipes</h1>
     <img src="images/kitchen.jpeg" width="520">
     <h2>
